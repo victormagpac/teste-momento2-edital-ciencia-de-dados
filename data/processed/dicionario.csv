@@ -1,0 +1,66 @@
+Coluna,Significado,Tipo,Grupo
+paciente_id,Número do prontuário do paciente,Inteiro,ID
+coriza,Sintoma,Booleano,Sintoma
+tosse_seca_ou_produtiva,Sintoma,Booleano,Sintoma
+calafrios,Sintoma,Booleano,Sintoma
+febre,Sintoma,Booleano,Sintoma
+dispneia,Sintoma,Booleano,Sintoma
+fadiga,Sintoma,Booleano,Sintoma
+anorexia,Sintoma,Booleano,Sintoma
+mialgia,Sintoma,Booleano,Sintoma
+astenia,Sintoma,Booleano,Sintoma
+dor_de_garganta,Sintoma,Booleano,Sintoma
+congestao_nasal,Sintoma,Booleano,Sintoma
+cefaleia,Sintoma,Booleano,Sintoma
+diarreia,Sintoma,Booleano,Sintoma
+nausea,Sintoma,Booleano,Sintoma
+vomitos,Sintoma,Booleano,Sintoma
+anosmia,Sintoma,Booleano,Sintoma
+ageusia,Sintoma,Booleano,Sintoma
+tabagismo,Histórico pessoal,Booleano,Histórico pessoal
+drogas,Histórico pessoal,Booleano,Histórico pessoal
+etilismo,Histórico pessoal,Booleano,Histórico pessoal
+diabetes,Comorbidade,Booleano,Comorbidade
+obesidade,Comorbidade,Booleano,Comorbidade
+hipertensao_arterial,Comorbidade,Booleano,Comorbidade
+doenca_cardiaca,Comorbidade,Booleano,Comorbidade
+doenca_pulmonar,Comorbidade,Booleano,Comorbidade
+doenca_reumatologica,Comorbidade,Booleano,Comorbidade
+doenca_autoimune,Comorbidade,Booleano,Comorbidade
+doenca_renal_cronica,Comorbidade,Booleano,Comorbidade
+doenca_hepatica_cronica,Comorbidade,Booleano,Comorbidade
+doenca_neurologica,Comorbidade,Booleano,Comorbidade
+paciente_chegou_com_suporte_respiratorio,Suporte respiratório no momento da internação,Booleano,Internação
+vmi,Passagem por ventilação mecânica invasiva,Booleano,Procedimento
+uti,Passagem pela UTI,Booleano,Procedimento
+necessidade_transfusional,Ocorrência de transfusão,Booleano,Procedimento
+fenomenos_tromboembolicos_tvp,Complicação,Booleano,Complicação
+fenomenos_tromboembolicos_tep,Complicação,Booleano,Complicação
+sepse,Complicação,Booleano,Complicação
+disfuncao_hepatica,Complicação,Booleano,Complicação
+choque_septico,Complicação,Booleano,Complicação
+disfuncao_multipla_de_orgaos,Complicação,Booleano,Complicação
+choque_hipovolemico,Complicação,Booleano,Complicação
+complicacao_neurologica,Complicação,Booleano,Complicação
+hemorragia,Complicação,Booleano,Complicação
+hemodialise,Ocorrência de hemodiálise,Booleano,Procedimento
+tempo_vmi_total,Tempo de permanência em ventilação mecânica (dias),Inteiro,Tempo
+tempo_uti_total,Tempo de permanência em UTI (dias),Inteiro,Tempo
+tempo_internacao,Tempo total de internação (dias),Inteiro,Tempo
+tempo_referencia_internacao,Tempo entre a data de referência e a data de internação (dias),Inteiro,Tempo
+nomemacro,Macrorregião onde o paciente reside,Texto,Sociodemográfico
+bairro,Bairro de residência do paciente (somente Fortaleza),Texto,Sociodemográfico
+latitude,Coordenada geográfica do bairro de residência do paciente,Double,Sociodemográfico
+longitude,Coordenada geográfica do bairro de residência do paciente,Double,Sociodemográfico
+idh_label,Categoria IDH do bairro de residência do paciente (somente Fortaleza),Texto,Sociodemográfico
+sexo,Sexo do paciente,Texto,Sociodemográfico
+idade,Idade do paciente,Inteiro,Sociodemográfico
+cor_autorreferida,Cor do paciente,Texto,Sociodemográfico
+estado_civil,Estado civil do paciente,Texto,Sociodemográfico
+escolaridade,Escolaridade do paciente,Texto,Sociodemográfico
+tipo_caso_a_admissao,Paciente suspeito ou confirmado no momento da internação,Texto,Internação
+tempo_sintomas_internacao,Tempo entre o início dos sintomas e a data da internação (dias),Inteiro,Tempo
+desfecho,Desfecho do paciente,Texto,Desfecho
+obito_menos24horas,Paciente foi a óbito em menos de 24h após internação,Booleano,Óbito
+obito_vm,Paciente foi a óbito durante o uso de ventilação mecânica,Booleano,Óbito
+obito_uti,Paciente foi a óbito na UTI,Booleano,Óbito
